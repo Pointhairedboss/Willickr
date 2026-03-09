@@ -1,0 +1,120 @@
+v1.26 file planet version:
+- convert rar sfx into .zip
+
+v1.26 changes:
++ all's fairy in love'n'war
++ brimstail's scales
++ complication
++ corridors of power
++ dance of death
++ dimension x
++ distillery hilarity
++ dogs of war
++ escape
++ food for thought
++ forest
++ forever
++ forgettable melody
++ forgotten
++ the galleon
++ ham fisted
++ head to head
++ isle of everywhere
++ lament of meiyerditch
++ land down under
++ the last shanty
++ life's a beach!
++ lightwalk
++ little cave of horrors
++ the lunar isle
++ malady
++ meddling kids
++ night of the vampyre
++ on the wing
++ pinball wizard
++ sigmund's showdown
++ tomb raider
++ trouble brewing
++ victory is mine
++ waking dream
++ warriors' guild
++ way of the enchanter
++ we are the fairies
+
+- nonjunkbox midi are now direct dump datas
+- rar sfx engine switched to 3.61
+- fix typos listed below
+rename: chefsurprize->chef surprise
+rename: deepdown->deep down
+rename: faraway->far away
+rename: incentation->incantation
+rename: mudskippermelody-> mudskipper melody
+rename: reggage->reggae
+rename: reggage2->reggae2
+rename: wolfmountain->wolf mountain
+
+v1.25
+update rar sfx engine (3.6final)
+
+v1.24 changes:
+update rar sfx engine (3.6b8) - fix stack overflow (?)
+
+v1.23 file planet version:
+interface:
+- convert rar sfx into .zip
+- recorrect file plant -> planet
+
+v1.23 changes:
+- minor spelling fix
+- converted to solid rar sfx
+
+v1.22 changes:
+update rar sfx engine (3.6b3) - fix 4096 word crash problem
+
+v1.21 changes:
++ making waves.mid (update)
++ last stand.mid (update)
+
+v1.20 file planet version:
+interface:
+- convert rar sfx into .zip
+- comment files changed
+
+v1.20 changes:
+interface:
+- replace changes.log under "runescape music" directory
+- fix "v1.9" typo at comments
+
+files:
+- rename funny rabbits.mid -> funny bunnies.mid (typo)
++ everlasting fire.mid (update)
++ fangs for the memory.mid (missing)
+
+v1.19 changes:
+interface:
+- add setup=changes.log to comments
+
+files:
++ runescape-corporal punishment.mid (missing)
+
+v1.18 changes:
+interface:
+- fix comment spacing
+
+files:
++ pest control.mid (update)
++ null and void.mid (update)
+
+v1.17 changes:
+interface
+- add changes.log
+- include version info at comments
+- seperate unlisted midi at differnet dir
+- add ring tone disclaimer
+
+files:
+- rename runescpae -> runescape of davy jones locker.mid (typo)
+- rename rowboad.mid -> swampboaty.mid
++ funny rabbits.mid (update)
++ church organ.mid
++ rug merchant.mid

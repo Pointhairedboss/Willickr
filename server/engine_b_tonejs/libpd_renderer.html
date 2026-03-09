@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HVCC Renderer</title>
+    <!-- We will inject the target WASM .js file from the URL parameters -->
+    <script type="text/javascript">
+        const urlParams = new URLSearchParams(window.location.search);
+        const patch = urlParams.get('patch');
+        if (patch) {
+            const script1 = document.createElement('script');
+            script1.src = `/${patch}.js`;
+            document.head.appendChild(script1);
+            console.log(`[HTML Loader] Injected: ${script1.src}`);
+        }
+    </script>
+  </head>
+  <body>
+    <h1>libpd.wasm Engine Loader</h1>
+  </body>
+</html>

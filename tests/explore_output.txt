@@ -1,0 +1,71 @@
+============================================================
+Willickr Axes.py Exploration
+============================================================
+
+=== Test: Small Synthetic Data ===
+Best View: bitplane_2
+Score: 2.5773437499975995
+Timeline Length: 8
+Metrics: {
+  "mean_adj_cosine": 0.9999999999979998,
+  "gzip_ratio_ordered": 0.0283203125,
+  "mean_entropy": 0.0,
+  "spectral_diag": {
+    "n": 8.0,
+    "fiedler_eigenvalue": 7.999999999999999,
+    "min_eigenvalue": 5.329070518200751e-15,
+    "max_eigenvalue": 8.000000000000009
+  },
+  "head_entropy": 1.5391284625383954,
+  "head_gzip_ratio": 0.033203125
+}
+Evidence: ['Bit-plane view: ((byte >> 2) & 1) stream (detects packed structure/flags)']
+
+=== Test: Random-ish Data ===
+Best View: bitplane_2
+Score: 2.4169377000112666
+Timeline Length: 32
+Entropy Range: 0.99 - 1.00
+Mean Entropy: 1.00
+Metrics: {
+  "mean_adj_cosine": 0.9999458663407257,
+  "gzip_ratio_ordered": 0.166375,
+  "mean_entropy": 0.9979467919520852,
+  "spectral_diag": {
+    "n": 32.0,
+    "fiedler_eigenvalue": 31.680328303810157,
+    "min_eigenvalue": 3.197442310920451e-14,
+    "max_eigenvalue": 31.954758167266846
+  },
+  "head_entropy": 7.988766875276753,
+  "head_gzip_ratio": 1.0014375
+}
+
+=== Test: Structured Repeating Data ===
+Best View: bitplane_7
+Score: 2.5959999999976
+Timeline Length: 32
+Entropy Range: -0.00 - -0.00
+Mean Entropy: 0.00
+Metrics: {
+  "mean_adj_cosine": 0.9999999999979998,
+  "gzip_ratio_ordered": 0.005,
+  "mean_entropy": 0.0,
+  "spectral_diag": {
+    "n": 32.0,
+    "fiedler_eigenvalue": 31.999999999999957,
+    "min_eigenvalue": -4.263256414560601e-14,
+    "max_eigenvalue": 32.000000000000064
+  },
+  "head_entropy": 4.569983486957871,
+  "head_gzip_ratio": 0.01375
+}
+
+=== Playback Buffer Creation Logic ===
+Content Length: 2000
+Step Size: 7
+Buffer Length: 256
+First 10 values: [65, 65, 65, 65, 65, 65, 65, 65, 65, 65]
+Last 10 values: [90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+
+Exploration complete.

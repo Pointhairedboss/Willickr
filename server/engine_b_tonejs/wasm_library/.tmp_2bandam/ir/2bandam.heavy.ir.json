@@ -1,0 +1,844 @@
+{
+    "version": "0.15.0",
+    "name": {
+        "escaped": "2bandam",
+        "display": "2bandam"
+    },
+    "objects": {
+        "RSd8ubqJ": {
+            "args": {},
+            "type": "__abs~f"
+        },
+        "yNoPgeRI": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "4gbXMVPG": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "J2JMaB3q": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "oENZOzwc": {
+            "args": {
+                "k": 0.5,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "aVgOEIvk": {
+            "args": {},
+            "type": "__sub~f"
+        },
+        "yZEkJrA9": {
+            "args": {
+                "k": 6.283185307179586,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "GgWFAr43": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "G3ZTwtZZ": {
+            "args": {
+                "k": 0.25,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "u2XNERy6": {
+            "args": {},
+            "type": "__sub~f"
+        },
+        "pDgtUzuF": {
+            "args": {
+                "k": 0.007833333333333,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "nWSP8zoC": {
+            "args": {
+                "frequency": 320.0,
+                "phase": 0.0
+            },
+            "type": "__phasor_k~f"
+        },
+        "Od3kdEjy": {
+            "args": {
+                "k": -0.166666666666667,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "dq2xpYHq": {
+            "args": {},
+            "type": "__fma~f"
+        },
+        "RqKEUXhf": {
+            "args": {},
+            "type": "__fma~f"
+        },
+        "JVNQFSg4": {
+            "args": {},
+            "type": "__abs~f"
+        },
+        "Eoro4Tik": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "5skeQ0Zd": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "GcnBpU7M": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "fYouWdrE": {
+            "args": {},
+            "type": "__sub~f"
+        },
+        "Lfm1PWaJ": {
+            "args": {
+                "k": 0.5,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "7Umsa9Cz": {
+            "args": {
+                "k": 6.283185307179586,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "ymIjG8mi": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "eS6z9vUq": {
+            "args": {},
+            "type": "__sub~f"
+        },
+        "DTm7Y5V6": {
+            "args": {
+                "k": 0.25,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "QvK0OTti": {
+            "args": {
+                "k": 0.007833333333333,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "83wwrEO1": {
+            "args": {
+                "frequency": 440.0,
+                "phase": 0.0
+            },
+            "type": "__phasor_k~f"
+        },
+        "QLMMYhiR": {
+            "args": {
+                "k": -0.166666666666667,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "XenYCAat": {
+            "args": {},
+            "type": "__fma~f"
+        },
+        "LU5WBV2Y": {
+            "args": {},
+            "type": "__fma~f"
+        },
+        "FN6kChbj": {
+            "args": {},
+            "type": "__add~f"
+        },
+        "e4zfcCaZ": {
+            "args": {},
+            "type": "__add~f"
+        },
+        "07Wiwrh6": {
+            "args": {},
+            "type": "__add~f"
+        },
+        "OJK8TWxT": {
+            "args": {
+                "k": 0.5,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "l6s5hC3i": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "G0AN9Iya": {
+            "args": {},
+            "type": "__mul~f"
+        },
+        "h1HDNYhe": {
+            "args": {
+                "k": 0.5,
+                "step": 0,
+                "reverse": 0.0
+            },
+            "type": "__var_k~f"
+        },
+        "6vTywJ80": {
+            "args": {},
+            "type": "__fma~f"
+        }
+    },
+    "init": {
+        "order": [
+            "nWSP8zoC",
+            "83wwrEO1"
+        ]
+    },
+    "tables": {},
+    "control": {
+        "receivers": {},
+        "sendMessage": []
+    },
+    "signal": {
+        "numInputBuffers": 0,
+        "numOutputBuffers": 2,
+        "numTemporaryBuffers": {
+            "float": 6,
+            "integer": 0
+        },
+        "processOrder": [
+            {
+                "id": "nWSP8zoC",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "oENZOzwc",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "aVgOEIvk",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "RSd8ubqJ",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "G3ZTwtZZ",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "u2XNERy6",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "yZEkJrA9",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "GgWFAr43",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "J2JMaB3q",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "yNoPgeRI",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    }
+                ]
+            },
+            {
+                "id": "4gbXMVPG",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "pDgtUzuF",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "Od3kdEjy",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 4
+                    }
+                ]
+            },
+            {
+                "id": "RqKEUXhf",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 4
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "dq2xpYHq",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "83wwrEO1",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "Lfm1PWaJ",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "fYouWdrE",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "JVNQFSg4",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "DTm7Y5V6",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "eS6z9vUq",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "7Umsa9Cz",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "ymIjG8mi",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "GcnBpU7M",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "Eoro4Tik",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 4
+                    }
+                ]
+            },
+            {
+                "id": "5skeQ0Zd",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 4
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "QvK0OTti",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    }
+                ]
+            },
+            {
+                "id": "QLMMYhiR",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 5
+                    }
+                ]
+            },
+            {
+                "id": "LU5WBV2Y",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 4
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 5
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "XenYCAat",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "07Wiwrh6",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    }
+                ]
+            },
+            {
+                "id": "h1HDNYhe",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "G0AN9Iya",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 2
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "6vTywJ80",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 1
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    }
+                ]
+            },
+            {
+                "id": "OJK8TWxT",
+                "inputBuffers": [],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "l6s5hC3i",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 3
+                    },
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "id": "FN6kChbj",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "output",
+                        "index": 1
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "output",
+                        "index": 1
+                    }
+                ]
+            },
+            {
+                "id": "e4zfcCaZ",
+                "inputBuffers": [
+                    {
+                        "type": "~f>",
+                        "index": 0
+                    },
+                    {
+                        "type": "output",
+                        "index": 0
+                    }
+                ],
+                "outputBuffers": [
+                    {
+                        "type": "output",
+                        "index": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

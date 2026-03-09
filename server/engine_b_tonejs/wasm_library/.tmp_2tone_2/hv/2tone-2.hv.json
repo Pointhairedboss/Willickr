@@ -1,0 +1,1816 @@
+{
+    "type": "graph",
+    "imports": [],
+    "args": [],
+    "objects": {
+        "dac~_FE9y1p7j": {
+            "type": "dac",
+            "args": {
+                "channels": [
+                    1,
+                    2
+                ]
+            },
+            "properties": {
+                "x": 1,
+                "y": 192
+            }
+        },
+        "*~_uESVTD00": {
+            "type": "*",
+            "args": {
+                "k": 0.2
+            },
+            "properties": {
+                "x": 1,
+                "y": 162
+            }
+        },
+        "*~_8OpJNaoj": {
+            "type": "*",
+            "args": {
+                "k": 0.0
+            },
+            "properties": {
+                "x": 1,
+                "y": 138
+            }
+        },
+        "graph_B80ljX3z": {
+            "type": "graph",
+            "imports": [],
+            "args": [],
+            "objects": {
+                "*~_2RzZZY2h": {
+                    "type": "*",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 33,
+                        "y": 178
+                    }
+                },
+                "*~_dCGkAAVW": {
+                    "type": "*",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 44,
+                        "y": 231
+                    }
+                },
+                "*~_BTY5FyVA": {
+                    "type": "*",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 48,
+                        "y": 154
+                    }
+                },
+                "comment_ogApcFIy": {
+                    "type": "comment",
+                    "args": {
+                        "text": "x^2"
+                    },
+                    "properties": {
+                        "x": 74,
+                        "y": 153
+                    },
+                    "annotations": {}
+                },
+                "comment_FFVnie1s": {
+                    "type": "comment",
+                    "args": {
+                        "text": "x^3"
+                    },
+                    "properties": {
+                        "x": 57,
+                        "y": 178
+                    },
+                    "annotations": {}
+                },
+                "comment_sl8Myc7v": {
+                    "type": "comment",
+                    "args": {
+                        "text": "x^5"
+                    },
+                    "properties": {
+                        "x": 68,
+                        "y": 231
+                    },
+                    "annotations": {}
+                },
+                "+~_oAY6H0Lj": {
+                    "type": "+",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 276
+                    }
+                },
+                "outlet~_LOzdT0Ao": {
+                    "type": "outlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "~f>"
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 299
+                    }
+                },
+                "comment_5aP1R9lo": {
+                    "type": "comment",
+                    "args": {
+                        "text": "@hv_arg \\$1 frequency float 440 false"
+                    },
+                    "properties": {
+                        "x": 17,
+                        "y": 320
+                    },
+                    "annotations": {}
+                },
+                "comment_sC6rYyiL": {
+                    "type": "comment",
+                    "args": {
+                        "text": "x"
+                    },
+                    "properties": {
+                        "x": 85,
+                        "y": 122
+                    },
+                    "annotations": {}
+                },
+                "graph_EDSa257g": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "__abs~f_MyxrriLK": {
+                            "type": "__abs~f",
+                            "args": {},
+                            "properties": {
+                                "x": 13,
+                                "y": 50
+                            },
+                            "annotations": {}
+                        },
+                        "inlet~_mXApFr1V": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "~f>"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 20
+                            }
+                        },
+                        "outlet~_E5dIZ9fM": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "~f>"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 80
+                            }
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "__abs~f_MyxrriLK",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet~_E5dIZ9fM",
+                                "inlet": 0
+                            },
+                            "type": "~f>"
+                        },
+                        {
+                            "from": {
+                                "id": "inlet~_mXApFr1V",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__abs~f_MyxrriLK",
+                                "inlet": 0
+                            },
+                            "type": "~f>"
+                        }
+                    ],
+                    "properties": {
+                        "x": 18,
+                        "y": 78
+                    }
+                },
+                "-~_HGtvA2as": {
+                    "type": "-",
+                    "args": {
+                        "k": 0.5
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 56
+                    }
+                },
+                "comment_LD7EgtYY": {
+                    "type": "comment",
+                    "args": {
+                        "text": "[-0.25 \\, +0.25]"
+                    },
+                    "properties": {
+                        "x": 67,
+                        "y": 98
+                    },
+                    "annotations": {}
+                },
+                "*~_LufZMLIi": {
+                    "type": "*",
+                    "args": {
+                        "k": 6.283185307179586
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 122
+                    }
+                },
+                "-~_cCVvgcD0": {
+                    "type": "-",
+                    "args": {
+                        "k": 0.25
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 99
+                    }
+                },
+                "inlet_ztCuo9tA": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 1,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 135,
+                        "y": 9
+                    }
+                },
+                "inlet_HijxA7YO": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-~>"
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 9
+                    }
+                },
+                "comment_2I97h38x": {
+                    "type": "comment",
+                    "args": {
+                        "text": "-5% to adjust for taylor expansion"
+                    },
+                    "properties": {
+                        "x": 44,
+                        "y": 278
+                    },
+                    "annotations": {}
+                },
+                "*~_CxzalvaW": {
+                    "type": "*",
+                    "args": {
+                        "k": 0.007833333333333
+                    },
+                    "properties": {
+                        "x": 44,
+                        "y": 255
+                    }
+                },
+                "comment_Pn8XkopH": {
+                    "type": "comment",
+                    "args": {
+                        "text": "a cosine oscillator"
+                    },
+                    "properties": {
+                        "x": 16,
+                        "y": 335
+                    },
+                    "annotations": {}
+                },
+                "phasor_1T4MjI3K": {
+                    "type": "phasor",
+                    "args": {
+                        "frequency": 800.0
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 33
+                    },
+                    "annotations": {}
+                },
+                "*~_vlXXkCcy": {
+                    "type": "*",
+                    "args": {
+                        "k": -0.166666666666667
+                    },
+                    "properties": {
+                        "x": 33,
+                        "y": 202
+                    }
+                },
+                "+~_Cu1LQKTl": {
+                    "type": "+",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 18,
+                        "y": 254
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "from": {
+                        "id": "*~_2RzZZY2h",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_dCGkAAVW",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_2RzZZY2h",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_vlXXkCcy",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_dCGkAAVW",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_CxzalvaW",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_BTY5FyVA",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_dCGkAAVW",
+                        "inlet": 1
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_BTY5FyVA",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_2RzZZY2h",
+                        "inlet": 1
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "+~_oAY6H0Lj",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "outlet~_LOzdT0Ao",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "graph_EDSa257g",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "-~_cCVvgcD0",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "-~_HGtvA2as",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "graph_EDSa257g",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_LufZMLIi",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_BTY5FyVA",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_LufZMLIi",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_BTY5FyVA",
+                        "inlet": 1
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_LufZMLIi",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_2RzZZY2h",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_LufZMLIi",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "+~_Cu1LQKTl",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "-~_cCVvgcD0",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*~_LufZMLIi",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "inlet_ztCuo9tA",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "phasor_1T4MjI3K",
+                        "inlet": 1
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "inlet_HijxA7YO",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "phasor_1T4MjI3K",
+                        "inlet": 0
+                    },
+                    "type": "-~>"
+                },
+                {
+                    "from": {
+                        "id": "*~_CxzalvaW",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "+~_oAY6H0Lj",
+                        "inlet": 1
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "phasor_1T4MjI3K",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "-~_HGtvA2as",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "*~_vlXXkCcy",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "+~_Cu1LQKTl",
+                        "inlet": 1
+                    },
+                    "type": "~f>"
+                },
+                {
+                    "from": {
+                        "id": "+~_Cu1LQKTl",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "+~_oAY6H0Lj",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                }
+            ],
+            "properties": {
+                "x": 17,
+                "y": 114
+            }
+        },
+        "graph_sloHMtoq": {
+            "type": "graph",
+            "imports": [],
+            "args": [],
+            "objects": {
+                "inlet_JOQuVCje": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 9,
+                        "y": 11
+                    }
+                },
+                "outlet~_4QvVxUqx": {
+                    "type": "outlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "~f>"
+                    },
+                    "properties": {
+                        "x": 9,
+                        "y": 57
+                    }
+                },
+                "comment_ZpIZzzHA": {
+                    "type": "comment",
+                    "args": {
+                        "text": "@hv_arg \\$1 k float 0 false"
+                    },
+                    "properties": {
+                        "x": 7,
+                        "y": 78
+                    },
+                    "annotations": {}
+                },
+                "var_U22bdS8P": {
+                    "type": "var",
+                    "args": {},
+                    "properties": {
+                        "x": 9,
+                        "y": 34
+                    },
+                    "annotations": {}
+                }
+            },
+            "connections": [
+                {
+                    "from": {
+                        "id": "inlet_JOQuVCje",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "var_U22bdS8P",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "var_U22bdS8P",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "outlet~_4QvVxUqx",
+                        "inlet": 0
+                    },
+                    "type": "~f>"
+                }
+            ],
+            "properties": {
+                "x": 1,
+                "y": 91
+            }
+        },
+        "graph_Xv7fxE7O": {
+            "type": "graph",
+            "imports": [],
+            "args": [],
+            "objects": {
+                "inlet_tTmViYuY": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 62,
+                        "y": 50
+                    }
+                },
+                "inlet_4Sn48iFc": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 1,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 255,
+                        "y": 7
+                    }
+                },
+                "outlet_qWMhCR58": {
+                    "type": "outlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 62,
+                        "y": 205
+                    }
+                },
+                "comment_HDuPviCF": {
+                    "type": "comment",
+                    "args": {
+                        "text": "@hv_arg \\$1 period float 1000 false"
+                    },
+                    "properties": {
+                        "x": 112,
+                        "y": 206
+                    },
+                    "annotations": {}
+                },
+                "__switchcase_8tzhNybe": {
+                    "type": "__switchcase",
+                    "args": {
+                        "cases": [
+                            0.0,
+                            "stop"
+                        ]
+                    },
+                    "properties": {
+                        "x": 62,
+                        "y": 76
+                    }
+                },
+                "msg_o77Q4Xg5": {
+                    "type": "message",
+                    "args": {
+                        "local": [
+                            [
+                                "clear"
+                            ]
+                        ],
+                        "remote": []
+                    },
+                    "properties": {
+                        "x": 150,
+                        "y": 145
+                    }
+                },
+                "trigger_eECaWuKz": {
+                    "type": "sequence",
+                    "args": {
+                        "casts": [
+                            "a",
+                            "a"
+                        ]
+                    },
+                    "properties": {
+                        "x": 62,
+                        "y": 175
+                    }
+                },
+                "__delay_w1liQxv2": {
+                    "type": "__delay",
+                    "args": {},
+                    "properties": {
+                        "x": 150,
+                        "y": 175
+                    },
+                    "annotations": {}
+                },
+                "graph_8IHaR69l": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "inlet_LZQ2Q3UL": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 9,
+                                "y": 10
+                            }
+                        },
+                        "__cast_b_stFSaZrx": {
+                            "type": "__cast_b",
+                            "args": {},
+                            "properties": {
+                                "x": 9,
+                                "y": 33
+                            },
+                            "annotations": {}
+                        },
+                        "outlet_mRh9cByf": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 9,
+                                "y": 57
+                            }
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "inlet_LZQ2Q3UL",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__cast_b_stFSaZrx",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "__cast_b_stFSaZrx",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet_mRh9cByf",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        }
+                    ],
+                    "properties": {
+                        "x": 62,
+                        "y": 122
+                    }
+                },
+                "trigger_Idfn5es9": {
+                    "type": "sequence",
+                    "args": {
+                        "casts": [
+                            "a",
+                            "a"
+                        ]
+                    },
+                    "properties": {
+                        "x": 62,
+                        "y": 145
+                    }
+                },
+                "comment_9HQi5siG": {
+                    "type": "comment",
+                    "args": {
+                        "text": "minimum period is set to one sample"
+                    },
+                    "properties": {
+                        "x": 264,
+                        "y": 162
+                    },
+                    "annotations": {}
+                },
+                "max_EETyT4gv": {
+                    "type": "max",
+                    "args": {
+                        "k": 1.0
+                    },
+                    "properties": {
+                        "x": 255,
+                        "y": 145
+                    }
+                },
+                "graph_blK8kRte": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "inlet_Opa1Zk36": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 19,
+                                "y": 11
+                            }
+                        },
+                        "outlet_dx0xqX4f": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 19,
+                                "y": 84
+                            }
+                        },
+                        "msg_SfpSliBY": {
+                            "type": "message",
+                            "args": {
+                                "local": [
+                                    [
+                                        "samplerate"
+                                    ]
+                                ],
+                                "remote": []
+                            },
+                            "properties": {
+                                "x": 19,
+                                "y": 35
+                            }
+                        },
+                        "system_jVuWTQxF": {
+                            "type": "system",
+                            "args": {},
+                            "properties": {
+                                "x": 19,
+                                "y": 59
+                            },
+                            "annotations": {}
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "inlet_Opa1Zk36",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "msg_SfpSliBY",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "msg_SfpSliBY",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "system_jVuWTQxF",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "system_jVuWTQxF",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet_dx0xqX4f",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        }
+                    ],
+                    "properties": {
+                        "x": 292,
+                        "y": 76
+                    }
+                },
+                "/_3dqXVXn7": {
+                    "type": "/",
+                    "args": {
+                        "k": 1000.0
+                    },
+                    "properties": {
+                        "x": 292,
+                        "y": 99
+                    }
+                },
+                "*_pJtlTSqS": {
+                    "type": "*",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 255,
+                        "y": 123
+                    }
+                },
+                "graph_2hG8sGzm": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "comment_rHChIUkv": {
+                            "type": "comment",
+                            "args": {
+                                "text": "@hv_arg \\$1 k float 0 false"
+                            },
+                            "properties": {
+                                "x": 11,
+                                "y": 119
+                            },
+                            "annotations": {}
+                        },
+                        "__var_q4wUfiKs": {
+                            "type": "__var",
+                            "args": {
+                                "k": 300.0
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 60
+                            },
+                            "annotations": {}
+                        },
+                        "outlet_Wj9sOWhL": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 90
+                            }
+                        },
+                        "inlet_YtBU8Ljg": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 20
+                            }
+                        },
+                        "inlet_rpejCreV": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 1,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 124,
+                                "y": 20
+                            }
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "__var_q4wUfiKs",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet_Wj9sOWhL",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "inlet_YtBU8Ljg",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__var_q4wUfiKs",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "inlet_rpejCreV",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__var_q4wUfiKs",
+                                "inlet": 1
+                            },
+                            "type": "-->"
+                        }
+                    ],
+                    "properties": {
+                        "x": 255,
+                        "y": 76
+                    }
+                },
+                "trigger_JZQiqxPE": {
+                    "type": "sequence",
+                    "args": {
+                        "casts": [
+                            "a",
+                            "a"
+                        ]
+                    },
+                    "properties": {
+                        "x": 265,
+                        "y": 52
+                    }
+                },
+                "graph_cVOGe1k2": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "r_KEZiYvR0": {
+                            "type": "receive",
+                            "args": {
+                                "name": "__hv_init",
+                                "extern": null,
+                                "attributes": {},
+                                "priority": 2999
+                            },
+                            "properties": {
+                                "x": 12,
+                                "y": 11
+                            },
+                            "annotations": {
+                                "scope": "public"
+                            }
+                        },
+                        "outlet_An7nN8U8": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 12,
+                                "y": 34
+                            }
+                        },
+                        "comment_AenFzGTI": {
+                            "type": "comment",
+                            "args": {
+                                "text": "@hv_arg \\$1 priority int 0 false"
+                            },
+                            "properties": {
+                                "x": 12,
+                                "y": 58
+                            },
+                            "annotations": {}
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "r_KEZiYvR0",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet_An7nN8U8",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        }
+                    ],
+                    "properties": {
+                        "x": 265,
+                        "y": 29
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "from": {
+                        "id": "inlet_tTmViYuY",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "__switchcase_8tzhNybe",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "inlet_4Sn48iFc",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "graph_2hG8sGzm",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "__switchcase_8tzhNybe",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "msg_o77Q4Xg5",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "__switchcase_8tzhNybe",
+                        "outlet": 1
+                    },
+                    "to": {
+                        "id": "msg_o77Q4Xg5",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "__switchcase_8tzhNybe",
+                        "outlet": 2
+                    },
+                    "to": {
+                        "id": "graph_8IHaR69l",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "msg_o77Q4Xg5",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "__delay_w1liQxv2",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_eECaWuKz",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "outlet_qWMhCR58",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_eECaWuKz",
+                        "outlet": 1
+                    },
+                    "to": {
+                        "id": "__delay_w1liQxv2",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "__delay_w1liQxv2",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "trigger_eECaWuKz",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_8IHaR69l",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "trigger_Idfn5es9",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_Idfn5es9",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "trigger_eECaWuKz",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_Idfn5es9",
+                        "outlet": 1
+                    },
+                    "to": {
+                        "id": "msg_o77Q4Xg5",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "max_EETyT4gv",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "__delay_w1liQxv2",
+                        "inlet": 2
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_blK8kRte",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "/_3dqXVXn7",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "/_3dqXVXn7",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*_pJtlTSqS",
+                        "inlet": 1
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "*_pJtlTSqS",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "max_EETyT4gv",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_2hG8sGzm",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "*_pJtlTSqS",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_JZQiqxPE",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "graph_2hG8sGzm",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "trigger_JZQiqxPE",
+                        "outlet": 1
+                    },
+                    "to": {
+                        "id": "graph_blK8kRte",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_cVOGe1k2",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "trigger_JZQiqxPE",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                }
+            ],
+            "properties": {
+                "x": 1,
+                "y": 19
+            }
+        },
+        "graph_ZOZw2FQv": {
+            "type": "graph",
+            "imports": [],
+            "args": [],
+            "objects": {
+                "comment_S5MERCmQ": {
+                    "type": "comment",
+                    "args": {
+                        "text": "@hv_arg \\$1 k float 0 false"
+                    },
+                    "properties": {
+                        "x": 11,
+                        "y": 119
+                    },
+                    "annotations": {}
+                },
+                "__var_oKLTngvS": {
+                    "type": "__var",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 13,
+                        "y": 60
+                    },
+                    "annotations": {}
+                },
+                "outlet_UFWXcZv5": {
+                    "type": "outlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 13,
+                        "y": 90
+                    }
+                },
+                "inlet_Dd8gAGgi": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 13,
+                        "y": 20
+                    }
+                },
+                "inlet_qM5EAKoe": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 1,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 124,
+                        "y": 20
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "from": {
+                        "id": "__var_oKLTngvS",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "outlet_UFWXcZv5",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "inlet_Dd8gAGgi",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "__var_oKLTngvS",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "inlet_qM5EAKoe",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "__var_oKLTngvS",
+                        "inlet": 1
+                    },
+                    "type": "-->"
+                }
+            ],
+            "properties": {
+                "x": 1,
+                "y": 45
+            }
+        },
+        "+_Kt7O6ORl": {
+            "type": "+",
+            "args": {
+                "k": 1.0
+            },
+            "properties": {
+                "x": 33,
+                "y": 45
+            }
+        },
+        "graph_UtlbaStD": {
+            "type": "graph",
+            "imports": [],
+            "args": [],
+            "objects": {
+                "inlet_p05J7G7S": {
+                    "type": "inlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 32,
+                        "y": 32
+                    }
+                },
+                "==_2GPylRbH": {
+                    "type": "==",
+                    "args": {
+                        "k": 0.0
+                    },
+                    "properties": {
+                        "x": 71,
+                        "y": 64
+                    }
+                },
+                "outlet_XaNRY1I4": {
+                    "type": "outlet",
+                    "args": {
+                        "name": "",
+                        "index": 0,
+                        "type": "-->"
+                    },
+                    "properties": {
+                        "x": 32,
+                        "y": 96
+                    }
+                },
+                "graph_tYUf3eQq": {
+                    "type": "graph",
+                    "imports": [],
+                    "args": [],
+                    "objects": {
+                        "comment_uyEFGdC4": {
+                            "type": "comment",
+                            "args": {
+                                "text": "@hv_arg \\$1 k float 0 false"
+                            },
+                            "properties": {
+                                "x": 11,
+                                "y": 119
+                            },
+                            "annotations": {}
+                        },
+                        "__var_8NYT0jIA": {
+                            "type": "__var",
+                            "args": {
+                                "k": 1.0
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 60
+                            },
+                            "annotations": {}
+                        },
+                        "outlet_IRPgj2jK": {
+                            "type": "outlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 90
+                            }
+                        },
+                        "inlet_HSrcweAr": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 0,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 13,
+                                "y": 20
+                            }
+                        },
+                        "inlet_ER7HtQYh": {
+                            "type": "inlet",
+                            "args": {
+                                "name": "",
+                                "index": 1,
+                                "type": "-->"
+                            },
+                            "properties": {
+                                "x": 124,
+                                "y": 20
+                            }
+                        }
+                    },
+                    "connections": [
+                        {
+                            "from": {
+                                "id": "__var_8NYT0jIA",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "outlet_IRPgj2jK",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "inlet_HSrcweAr",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__var_8NYT0jIA",
+                                "inlet": 0
+                            },
+                            "type": "-->"
+                        },
+                        {
+                            "from": {
+                                "id": "inlet_ER7HtQYh",
+                                "outlet": 0
+                            },
+                            "to": {
+                                "id": "__var_8NYT0jIA",
+                                "inlet": 1
+                            },
+                            "type": "-->"
+                        }
+                    ],
+                    "properties": {
+                        "x": 32,
+                        "y": 64
+                    }
+                }
+            },
+            "connections": [
+                {
+                    "from": {
+                        "id": "inlet_p05J7G7S",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "graph_tYUf3eQq",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "==_2GPylRbH",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "graph_tYUf3eQq",
+                        "inlet": 1
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_tYUf3eQq",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "==_2GPylRbH",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                },
+                {
+                    "from": {
+                        "id": "graph_tYUf3eQq",
+                        "outlet": 0
+                    },
+                    "to": {
+                        "id": "outlet_XaNRY1I4",
+                        "inlet": 0
+                    },
+                    "type": "-->"
+                }
+            ],
+            "properties": {
+                "x": 1,
+                "y": -3
+            }
+        },
+        "mod_8p54S3rp": {
+            "type": "mod",
+            "args": {
+                "k": 2.0
+            },
+            "properties": {
+                "x": 1,
+                "y": 68
+            }
+        }
+    },
+    "connections": [
+        {
+            "from": {
+                "id": "*~_uESVTD00",
+                "outlet": 0
+            },
+            "to": {
+                "id": "dac~_FE9y1p7j",
+                "inlet": 0
+            },
+            "type": "~f>"
+        },
+        {
+            "from": {
+                "id": "*~_uESVTD00",
+                "outlet": 0
+            },
+            "to": {
+                "id": "dac~_FE9y1p7j",
+                "inlet": 1
+            },
+            "type": "~f>"
+        },
+        {
+            "from": {
+                "id": "*~_8OpJNaoj",
+                "outlet": 0
+            },
+            "to": {
+                "id": "*~_uESVTD00",
+                "inlet": 0
+            },
+            "type": "~f>"
+        },
+        {
+            "from": {
+                "id": "graph_B80ljX3z",
+                "outlet": 0
+            },
+            "to": {
+                "id": "*~_8OpJNaoj",
+                "inlet": 1
+            },
+            "type": "~f>"
+        },
+        {
+            "from": {
+                "id": "graph_sloHMtoq",
+                "outlet": 0
+            },
+            "to": {
+                "id": "*~_8OpJNaoj",
+                "inlet": 0
+            },
+            "type": "~f>"
+        },
+        {
+            "from": {
+                "id": "graph_Xv7fxE7O",
+                "outlet": 0
+            },
+            "to": {
+                "id": "graph_ZOZw2FQv",
+                "inlet": 0
+            },
+            "type": "-->"
+        },
+        {
+            "from": {
+                "id": "graph_ZOZw2FQv",
+                "outlet": 0
+            },
+            "to": {
+                "id": "+_Kt7O6ORl",
+                "inlet": 0
+            },
+            "type": "-->"
+        },
+        {
+            "from": {
+                "id": "graph_ZOZw2FQv",
+                "outlet": 0
+            },
+            "to": {
+                "id": "mod_8p54S3rp",
+                "inlet": 0
+            },
+            "type": "-->"
+        },
+        {
+            "from": {
+                "id": "+_Kt7O6ORl",
+                "outlet": 0
+            },
+            "to": {
+                "id": "graph_ZOZw2FQv",
+                "inlet": 1
+            },
+            "type": "-->"
+        },
+        {
+            "from": {
+                "id": "graph_UtlbaStD",
+                "outlet": 0
+            },
+            "to": {
+                "id": "graph_Xv7fxE7O",
+                "inlet": 0
+            },
+            "type": "-->"
+        },
+        {
+            "from": {
+                "id": "mod_8p54S3rp",
+                "outlet": 0
+            },
+            "to": {
+                "id": "graph_sloHMtoq",
+                "inlet": 0
+            },
+            "type": "-->"
+        }
+    ],
+    "properties": {
+        "x": 0,
+        "y": 0
+    }
+}

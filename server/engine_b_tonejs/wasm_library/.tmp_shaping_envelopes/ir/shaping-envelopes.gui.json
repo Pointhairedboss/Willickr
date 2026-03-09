@@ -1,0 +1,46 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 247,
+        "y": 181
+      },
+      "size": {
+        "x": 160,
+        "y": 10
+      },
+      "text": "squared envelope"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 443,
+        "y": 181
+      },
+      "size": {
+        "x": 160,
+        "y": 10
+      },
+      "text": "quartic envelope"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 28,
+        "y": 181
+      },
+      "size": {
+        "x": 150,
+        "y": 10
+      },
+      "text": "linear envelope"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 570,
+    "y": 401
+  },
+  "version": "0.15.0"
+}

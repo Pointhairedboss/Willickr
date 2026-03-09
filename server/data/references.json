@@ -1,0 +1,66 @@
+[
+    {
+        "id": "ref_twotone",
+        "title": "TwoTone Sonification Engine",
+        "url": "https://github.com/sonifydata/twotone",
+        "category": "sonification_technique",
+        "license": "MPL-2.0",
+        "description": "Reference for mapping linear data sets (CSV/JSON) to musical parameters. Good example of 'Audio Charts'."
+    },
+    {
+        "id": "ref_benson_math",
+        "title": "Music: a Mathematical Offering",
+        "url": "https://homepages.abdn.ac.uk/d.j.benson/pages/html/music.pdf",
+        "category": "theory",
+        "license": "Copyright (CUP) - Personal Read Only",
+        "description": "Comprehensive academic text on waves, Fourier theory, scales, and digital music mathematics. Do not redistribute."
+    },
+    {
+        "id": "ref_musimathics_code",
+        "title": "Musimathics (Gareth Loy) Code",
+        "url": "https://github.com/musimat/musimat",
+        "category": "implementation",
+        "license": "GPL-3.0",
+        "description": "C++ source code for Musimat. Covers basic DSP, signals, and musical algorithms."
+    },
+    {
+        "id": "ref_image2music",
+        "title": "Image2Music",
+        "url": "https://github.com/brihijoshi/Image2Music",
+        "category": "implementation",
+        "license": "Unknown",
+        "description": "Image to Music conversion using SuperCollider. No license found."
+    },
+    {
+        "id": "ref_diff_earthquake",
+        "title": "earthquake-music",
+        "url": "https://github.com/DevinCLane/earthquake-music",
+        "category": "example",
+        "license": "Unknown",
+        "description": "Seismic data sonification example. No license found."
+    },
+    {
+        "id": "ref_image2melody",
+        "title": "image-2-melody",
+        "url": "https://github.com/dbetm/image-2-melody",
+        "category": "example",
+        "license": "Unknown",
+        "description": "Translate visual data (images) into melodies. No license found."
+    },
+    {
+        "id": "ref_data_daw",
+        "title": "data-audio-workstation",
+        "url": "https://github.com/victorloux/data-audio-workstation",
+        "category": "tool",
+        "license": "WTFPL",
+        "description": "Web-based DAW designed for data sonification tasks."
+    },
+    {
+        "id": "ref_sonstar_security",
+        "title": "SoNSTAR (Network Sonification)",
+        "url": "https://github.com/nuson/SoNSTAR",
+        "category": "security",
+        "license": "Unknown",
+        "description": "Real-time sonification of network traffic (TCP flags) for situational awareness. Uses pcapy."
+    }
+]

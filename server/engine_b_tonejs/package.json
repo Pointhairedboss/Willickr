@@ -1,0 +1,16 @@
+{
+  "name": "engine_b_tonejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "puppeteer": "^24.38.0"
+  }
+}

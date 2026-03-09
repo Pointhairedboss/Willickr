@@ -1,0 +1,70 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 156,
+        "y": 22
+      },
+      "size": {
+        "x": 110,
+        "y": 10
+      },
+      "text": "attack (ms)"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 256,
+        "y": 22
+      },
+      "size": {
+        "x": 100,
+        "y": 10
+      },
+      "text": "decay (ms)"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 86,
+        "y": 22
+      },
+      "size": {
+        "x": 70,
+        "y": 10
+      },
+      "text": "trigger"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 129,
+        "y": 283
+      },
+      "size": {
+        "x": 60,
+        "y": 10
+      },
+      "text": "attack"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 317,
+        "y": 285
+      },
+      "size": {
+        "x": 50,
+        "y": 10
+      },
+      "text": "decay"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 810,
+    "y": 546
+  },
+  "version": "0.15.0"
+}

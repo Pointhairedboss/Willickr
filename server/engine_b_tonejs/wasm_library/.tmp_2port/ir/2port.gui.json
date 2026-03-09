@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 122,
+        "y": 106
+      },
+      "size": {
+        "x": 40,
+        "y": 10
+      },
+      "text": "V+_1"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 238,
+        "y": 104
+      },
+      "size": {
+        "x": 40,
+        "y": 10
+      },
+      "text": "V+_2"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 568,
+    "y": 208
+  },
+  "version": "0.15.0"
+}

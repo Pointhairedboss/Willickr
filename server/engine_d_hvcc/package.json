@@ -1,0 +1,15 @@
+{
+  "name": "engine_d_hvcc",
+  "version": "1.0.0",
+  "main": "test_hvcc_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.38.0"
+  }
+}

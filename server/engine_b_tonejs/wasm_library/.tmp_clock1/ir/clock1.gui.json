@@ -1,0 +1,22 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 60,
+        "y": 23
+      },
+      "size": {
+        "x": 40,
+        "y": 10
+      },
+      "text": "cog1"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 325,
+    "y": 417
+  },
+  "version": "0.15.0"
+}

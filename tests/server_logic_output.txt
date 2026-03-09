@@ -1,0 +1,12 @@
+=== Testing Server Ordered Buffer Logic ===
+
+Content length: 20000 bytes
+Best view: raw_fallback
+Order indices type: <class 'list'>
+First index type: <class 'int'>
+First 5 indices: [0, 1, 2, 3, 4]
+Original windows count: 4
+Order indices count: 5
+Valid indices count: 4
+Ordered buffer length: 256
+First 10 ordered: [50, 32, 50, 116, 83, 50, 32, 50, 116, 83]

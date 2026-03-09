@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "willickr": {
+            "type": "stdio",
+            "command": "c:\\Users\\Owner\\OneDrive\\Documents\\code\\willickr\\server\\.venv\\Scripts\\python.exe",
+            "args": [
+                "c:\\Users\\Owner\\OneDrive\\Documents\\code\\willickr\\server\\willickr_mcp.py"
+            ]
+        }
+    }
+}

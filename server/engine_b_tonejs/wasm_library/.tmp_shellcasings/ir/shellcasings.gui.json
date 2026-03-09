@@ -1,0 +1,22 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 35,
+        "y": 102
+      },
+      "size": {
+        "x": 160,
+        "y": 10
+      },
+      "text": "shell case eject"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 450,
+    "y": 300
+  },
+  "version": "0.15.0"
+}

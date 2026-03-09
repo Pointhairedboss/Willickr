@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 45,
+        "y": 182
+      },
+      "size": {
+        "x": 140,
+        "y": 10
+      },
+      "text": "circular modes"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 321,
+        "y": 180
+      },
+      "size": {
+        "x": 70,
+        "y": 10
+      },
+      "text": "striker"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 744,
+    "y": 471
+  },
+  "version": "0.15.0"
+}

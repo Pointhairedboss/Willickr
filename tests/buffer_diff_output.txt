@@ -1,0 +1,20 @@
+=== Testing Buffer Difference ===
+
+Content length: 9850 bytes
+Best view: bitplane_7
+Timeline length: 20
+Ordered stream length: 9850 bytes
+
+Linear buffer: 256 samples
+Ordered buffer: 256 samples
+
+Buffers differ at 256 / 256 positions
+That's 100.0% different
+
+--- First 20 values comparison ---
+Linear:  [50, 46, 46, 111, 116, 99, 108, 112, 32, 110, 116, 97, 83, 79, 78, 32, 50, 49, 45, 50]
+Ordered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+--- Last 20 values comparison ---
+Linear:  [71, 85, 66, 69, 68, 32, 50, 50, 45, 49, 48, 45, 53, 50, 48, 50, 10, 101, 114, 101]
+Ordered: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Willickr Debug Client</title>
+    <style>
+        body {
+            background: #111;
+            color: #0f0;
+            font-family: monospace;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background: #444;
+        }
+
+        #log {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #333;
+            height: 300px;
+            overflow-y: scroll;
+            white-space: pre-wrap;
+        }
+
+        .success {
+            color: #0f0;
+        }
+
+        .error {
+            color: #f00;
+        }
+
+        .info {
+            color: #ccf;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Willickr Debug Console</h1>
+    <div>
+        Status: <span id="status" class="error">DISCONNECTED</span>
+    </div>
+    <div style="margin-top: 20px;">
+        <button onclick="connect('ws://localhost:3001')">Connect localhost:3001</button>
+        <button onclick="connect('ws://127.0.0.1:3001')">Connect 127.0.0.1:3001</button>
+        <button onclick="send({action: 'set_port', port: 'Microsoft GS Wavetable Synth'})">Set Port: Wavetable</button>
+        <button onclick="send({action: 'test_note', note: 60})">Test Note (C4)</button>
+        <button onclick="send({action: 'fetch_tide'})">Fetch Tide</button>
+        <button onclick="document.getElementById('log').innerHTML = ''">Clear Log</button>
+    </div>
+    <div id="log"></div>
+
+    <script>
+        let ws;
+        const logDiv = document.getElementById('log');
+        const statusSpan = document.getElementById('status');
+
+        function log(msg, type = 'info') {
+            const line = document.createElement('div');
+            line.className = type;
+            line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            logDiv.prepend(line);
+        }
+
+        function connect(url) {
+            if (ws) {
+                log('Closing existing connection...', 'info');
+                ws.close();
+            }
+
+            log(`Connecting to ${url}...`, 'info');
+            try {
+                ws = new WebSocket(url);
+
+                ws.onopen = () => {
+                    log('CONNECTED!', 'success');
+                    statusSpan.textContent = "CONNECTED " + url;
+                    statusSpan.className = "success";
+                };
+
+                ws.onmessage = (e) => {
+                    log('RX: ' + e.data, 'info');
+                };
+
+                ws.onclose = (e) => {
+                    log(`DISCONNECTED (Code: ${e.code}, Reason: ${e.reason})`, 'error');
+                    statusSpan.textContent = "DISCONNECTED";
+                    statusSpan.className = "error";
+                };
+
+                ws.onerror = (e) => {
+                    log('ERROR (Check Console for details)', 'error');
+                    console.error(e);
+                };
+            } catch (e) {
+                log('Connection Exception: ' + e, 'error');
+            }
+        }
+
+        function send(data) {
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                log('Cannot send: Not connected', 'error');
+                return;
+            }
+            const str = JSON.stringify(data);
+            log('TX: ' + str, 'info');
+            ws.send(str);
+        }
+
+        // Auto-connect attempt
+        setTimeout(() => connect('ws://localhost:3001'), 500);
+    </script>
+</body>
+
+</html>

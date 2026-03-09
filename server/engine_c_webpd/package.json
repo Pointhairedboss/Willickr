@@ -1,0 +1,19 @@
+{
+  "name": "engine_c_webpd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "@webpd/compiler": "^0.2.2",
+    "@webpd/pd-parser": "^1.0.0",
+    "@webpd/runtime": "^0.1.2",
+    "wavefile": "^11.0.0"
+  }
+}

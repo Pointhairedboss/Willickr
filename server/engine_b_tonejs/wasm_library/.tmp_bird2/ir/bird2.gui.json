@@ -1,0 +1,142 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 372
+      },
+      "size": {
+        "x": 280,
+        "y": 10
+      },
+      "text": "bp1 - left bronchus pressure"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 392
+      },
+      "size": {
+        "x": 290,
+        "y": 10
+      },
+      "text": "bp2 - right bronchus pressure"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 412
+      },
+      "size": {
+        "x": 250,
+        "y": 10
+      },
+      "text": "bw1 - left bronchus width"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 432
+      },
+      "size": {
+        "x": 260,
+        "y": 10
+      },
+      "text": "bw2 - right bronchus width"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 452
+      },
+      "size": {
+        "x": 300,
+        "y": 10
+      },
+      "text": "rm - ring modulation at syrinx"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 472
+      },
+      "size": {
+        "x": 360,
+        "y": 10
+      },
+      "text": "mod - frequency modulation at syrinx"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 492
+      },
+      "size": {
+        "x": 310,
+        "y": 10
+      },
+      "text": "bf - base frequency of pessulus"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 512
+      },
+      "size": {
+        "x": 380,
+        "y": 10
+      },
+      "text": "pw - pulse width of pessulus excursion"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 532
+      },
+      "size": {
+        "x": 240,
+        "y": 10
+      },
+      "text": "tf1 - tracheal formant 1"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 552
+      },
+      "size": {
+        "x": 240,
+        "y": 10
+      },
+      "text": "tf2 - tracheal formant 2"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 539,
+        "y": 572
+      },
+      "size": {
+        "x": 320,
+        "y": 10
+      },
+      "text": "amp - overall amplitude envelope"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 854,
+    "y": 684
+  },
+  "version": "0.15.0"
+}

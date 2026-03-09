@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 106,
+        "y": 43
+      },
+      "size": {
+        "x": 160,
+        "y": 10
+      },
+      "text": "<- arg 1: signal"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 109,
+        "y": 135
+      },
+      "size": {
+        "x": 200,
+        "y": 10
+      },
+      "text": "<- arg 2: delay (ms)"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 530,
+    "y": 380
+  },
+  "version": "0.15.0"
+}

@@ -1,0 +1,48 @@
+{
+  "device_name": "Roland S-1",
+  "engine_type": "hardware_midi",
+  "macro_mappings": {
+    "afo:SpectralCentroid": {
+      "description": "Filter Cutoff (Brightness)",
+      "midi_cc": 74,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:RoomSize": {
+      "description": "Reverb Level",
+      "midi_cc": 91,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:DelayFeedback": {
+      "description": "Delay Level",
+      "midi_cc": 94,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:Resonance": {
+      "description": "Filter Resonance",
+      "midi_cc": 71,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:LFO_Rate": {
+      "description": "LFO Rate",
+      "midi_cc": 24,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:AttackTime": {
+      "description": "Amp Envelope Attack",
+      "midi_cc": 73,
+      "range_min": 0,
+      "range_max": 127
+    },
+    "afo:ReleaseTime": {
+      "description": "Amp Envelope Release",
+      "midi_cc": 72,
+      "range_min": 0,
+      "range_max": 127
+    }
+  }
+}

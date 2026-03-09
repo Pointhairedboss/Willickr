@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "type": "comment",
+      "position": {
+        "x": 8,
+        "y": 137
+      },
+      "size": {
+        "x": 40,
+        "y": 10
+      },
+      "text": "IN 1"
+    },
+    {
+      "type": "comment",
+      "position": {
+        "x": 9,
+        "y": 215
+      },
+      "size": {
+        "x": 50,
+        "y": 10
+      },
+      "text": "OUT 2"
+    }
+  ],
+  "graphs": [],
+  "size": {
+    "x": 719,
+    "y": 304
+  },
+  "version": "0.15.0"
+}
